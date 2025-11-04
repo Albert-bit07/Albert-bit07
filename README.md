@@ -5,7 +5,7 @@ I’m a Data Science and Finance student at the University of Rochester, passion
 
 I enjoy creating systems that blend data, design, and problem-solving to turn complex ideas into intuitive, impactful solutions.
 
-Tech: Python · Java · SQL · AWS
+Tech: Python · Java · SQL · AWS · Javascript · HTML · CSS · Firestore
 
 If you like my work or have any comments feel free to reach out.
  • albertmejooli@gmail.com
