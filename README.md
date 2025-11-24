@@ -1,7 +1,7 @@
 ## Hi, I'm Albert 👋
 
 
-I’m a Data Science and Finance student at the University of Rochester, passionate about software engineering, AI, and building tools that make life simpler and smarter.
+I’m a Computer Science and Finance student at the University of Rochester, passionate about software engineering, AI, and building tools that make life simpler and smarter.
 
 I enjoy creating systems that blend data, design, and problem-solving to turn complex ideas into intuitive, impactful solutions.
 
