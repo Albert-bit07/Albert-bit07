@@ -1,11 +1,11 @@
-## Hi, I'm Albert 👋
+# Hi, I'm Albert 👋
 
+CS + Business @ University of Rochester '28. I build backend systems and infrastructure.
 
-I’m a Computer Science and Finance student at the University of Rochester, passionate about software engineering, AI, and building tools that make life simpler and smarter.
+Previously a Software Engineer Intern at Cloudflare, working on billing infrastructure in Go: REST APIs over a row-locked Postgres ledger, Stripe integrations, and a cross-service fraud-reporting pipeline on GCP Pub/Sub.
 
-I enjoy creating systems that blend data, design, and problem-solving to turn complex ideas into intuitive, impactful solutions.
+## Tech
 
-Tech: Python · Java · SQL · AWS · Javascript · Go · HTML · CSS · Firestore · MongoDB · R
+Go · C++ · Python · Rust · TypeScript · SQL · AWS · GCP · Docker · Kubernetes
 
-If you like my work or have any comments feel free to reach out.
- • albertmejooli@gmail.com
+Currently seeking Summer 2027 software engineering internships. Always happy to connect: albertmejooli@gmail.com
