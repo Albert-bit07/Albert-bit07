@@ -15,6 +15,7 @@ I’m seeking **Summer 2027 software engineering internships**, with interests i
 | Project | What to expect |
 |---|---|
 | [Choreolog](https://github.com/Albert-bit07/Choreolog) | C++20 replicated event runtime: checksummed write-ahead logging, deterministic replay, three-node majority commitment and recovery tests |
+| [See Through](https://github.com/A2Hackathon/see-through) | Assistive-vision wearable built with Amanda Le at HopHacks ’26: ESP32/BLE image capture, local YOLOv8 and InsightFace inference, FastAPI services and an Expo mobile client |
 | [feedback-analyzer](https://github.com/Albert-bit07/feedback-analyzer) | TypeScript dashboard and APIs on Cloudflare Workers, with D1 SQL aggregation, KV caching and Workers AI integration |
 
 Each repository includes architecture, setup instructions and implementation details.
