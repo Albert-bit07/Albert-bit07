@@ -8,12 +8,12 @@ I build backend and systems projects and previously worked on backend engineerin
 
 | Project | What to inspect | Current scope |
 |---|---|---|
-| [Choreo Log](https://github.com/Albert-bit07/Choreolog) | C++20 event runtime, WAL/snapshot recovery, replication and tests | Strongest systems project; [presentation PR](https://github.com/Albert-bit07/Choreolog/pull/24) remains draft |
+| [Choreo Log](https://github.com/Albert-bit07/Choreolog) | C++20 event runtime, WAL/snapshot recovery, replication and tests | Strongest systems project; [presentation PR](https://github.com/Albert-bit07/Choreolog/pull/24) merged |
 | [Feedback Analyzer](https://github.com/Albert-bit07/feedback-analyzer) | TypeScript Worker, relational summaries, KV cache and inference bindings | Backend/dashboard prototype using seeded feedback |
 | [Meme Feed](https://github.com/Albert-bit07/Memewebsite) | C++ cosine ranking and embedded Python preference computation | Collaborative prototype; runtime threading and setup gaps documented |
 | [ChatterQuest / SpeakBright](https://github.com/Albert-bit07/Speech-therapy-app) | Python audio-analysis API and SwiftUI game boundary | Collaborative prototype; current game path uses mock analysis |
 
-The application repositories have documentation draft PRs linked in the [portfolio review](docs/portfolio-review.md). Their improved guides are reviewable on those branches and are not yet on default branches.
+The application documentation PRs linked in the [portfolio review](docs/portfolio-review.md) have been merged. Their guides are available on the default branches. Documentation merges do not resolve the application bugs and runtime limitations recorded in the review.
 
 ## Supporting projects
 
