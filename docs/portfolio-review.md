@@ -30,7 +30,7 @@ All new PRs are drafts on `docs/engineering-showcase-20261020`, with no merges. 
 | Speech-therapy-app | README, mock/integration boundaries, engineering overview, demo plan, recruiting materials | [PR 1](https://github.com/Albert-bit07/Speech-therapy-app/pull/1) | Open draft, unmerged |
 | charttracker-api | Proportionate README with architecture, setup, demo and limits | [PR 1](https://github.com/Albert-bit07/charttracker-api/pull/1) | Open draft, unmerged |
 | Chart-tracker | Proportionate README with flow, setup, demo fallback and limits | [PR 1](https://github.com/Albert-bit07/Chart-tracker/pull/1) | Open draft, unmerged |
-| Profile | Curated project navigation, portfolio review and Choreo recruiting notes | This branch's profile documentation PR | Draft prepared for review |
+| Profile | Curated project navigation, portfolio review and Choreo recruiting notes | [PR 1](https://github.com/Albert-bit07/Albert-bit07/pull/1) | Open draft, unmerged |
 
 - [x] Accessible inventory, reference study, source/history review and ranking
 - [x] Five untreated application/learning repository documentation branches and draft PRs
@@ -53,7 +53,7 @@ All new PRs are drafts on `docs/engineering-showcase-20261020`, with no merges. 
 | Chart Tracker | Python AST (1 file) | yfinance/pygame absent; no desktop/provider/audio execution |
 | Choreo Log | Read reference and checked PR status only in this pass | No build/test rerun, metric reproduction or new demo in this pass |
 
-`git diff --check` passed on the five application documentation changes. All 49 local links/anchors in those changes resolved. Five Mermaid diagrams parsed using Mermaid with a jsdom DOM; this is syntax validation, not a GitHub visual-render check. No successful runtime test is inferred from AST parsing, type checking, syntax checking or bundling.
+`git diff --check` passed on the five application documentation changes. All 49 local links/anchors in those changes resolved. Five Mermaid diagrams parsed using Mermaid with a jsdom DOM; this is syntax validation, not a GitHub visual-render check. No successful runtime test is inferred from AST parsing, type checking, syntax checking or bundling. Final remote comparisons confirmed that all six new PRs change Markdown files only. All six were open drafts and unmerged; their inspected heads had zero check runs and no commit statuses (the combined status API reports pending, not success).
 
 The five untreated project trees contain no CI workflow. GitHub Actions queries returned zero historical workflow runs for each. Required checks cannot be considered passed merely because none exist. This work did not change core behavior or create tests mirroring documentation.
 
