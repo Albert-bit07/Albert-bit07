@@ -30,7 +30,7 @@ On 2026-10-20, the user explicitly authorized merging all portfolio documentatio
 | Speech-therapy-app | README, mock/integration boundaries, engineering overview, demo plan, recruiting materials | [PR 1](https://github.com/Albert-bit07/Speech-therapy-app/pull/1) | Open draft, unmerged |
 | charttracker-api | Proportionate README with architecture, setup, demo and limits | [PR 1](https://github.com/Albert-bit07/charttracker-api/pull/1) | Open draft, unmerged |
 | Chart-tracker | Proportionate README with flow, setup, demo fallback and limits | [PR 1](https://github.com/Albert-bit07/Chart-tracker/pull/1) | Open draft, unmerged |
-| Profile | Curated project navigation, portfolio review and Choreo recruiting notes | [PR 1](https://github.com/Albert-bit07/Albert-bit07/pull/1) | Open draft, unmerged |
+| Profile | Curated project navigation, portfolio review | [PR 1](https://github.com/Albert-bit07/Albert-bit07/pull/1) | Open draft, unmerged |
 
 - [x] Accessible inventory, reference study, source/history review and ranking
 - [x] Five untreated application/learning repository documentation branches and draft PRs
@@ -79,4 +79,4 @@ Pin **Choreo Log**, then **Feedback Analyzer**. Add **Meme Feed** after its runt
 | ML infrastructure | Meme Feed plus Choreo Log systems evidence | Feedback Analyzer for inference API integration; no training/evaluation infrastructure established |
 | General backend/full-stack | Feedback Analyzer or Choreo Log | ChatterQuest for collaborative API design, with mock path disclosed |
 
-For a short recruiter conversation: lead with Choreo Log, follow with Feedback Analyzer, then choose Meme Feed or ChatterQuest based on the role. Detailed recruiting text is now available on each showcase project's default branch in `docs/recruiting.md`; Choreo's matching notes are [here](choreolog-recruiting.md).
+For a short recruiter conversation: lead with Choreo Log, follow with Feedback Analyzer, then choose Meme Feed or ChatterQuest based on the role. Detailed recruiting text is now available on each showcase project's default branch in `docs/recruiting.md`.
