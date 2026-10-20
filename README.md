@@ -12,7 +12,7 @@ I’m seeking **Summer 2027 software engineering internships**, with interests i
 
 ## Selected engineering work
 
-| Project | What to inspect |
+| Project | What to expect |
 |---|---|
 | [Choreolog](https://github.com/Albert-bit07/Choreolog) | C++20 replicated event runtime: checksummed write-ahead logging, deterministic replay, three-node majority commitment and recovery tests |
 | [feedback-analyzer](https://github.com/Albert-bit07/feedback-analyzer) | TypeScript dashboard and APIs on Cloudflare Workers, with D1 SQL aggregation, KV caching and Workers AI integration |
