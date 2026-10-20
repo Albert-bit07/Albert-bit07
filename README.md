@@ -19,4 +19,4 @@ The application documentation PRs linked in the [portfolio review](docs/portfoli
 
 [ChartTracker API](https://github.com/Albert-bit07/charttracker-api) adds an HTTP entry point to a desktop polling experiment. [Chart Tracker](https://github.com/Albert-bit07/Chart-tracker) is the original interactive script. I keep them as smaller learning projects rather than presenting them as trading infrastructure.
 
-[Portfolio review and verification ledger](docs/portfolio-review.md) · [Choreo Log recruiting notes](docs/choreolog-recruiting.md)
+[Portfolio review and verification ledger](docs/portfolio-review.md)
