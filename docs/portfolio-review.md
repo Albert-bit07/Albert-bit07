@@ -1,3 +1,5 @@
+> Follow-up implementation: see the [engineering ledger](portfolio-implementation-ledger.md) for code fixes, regression tests, CI and current residual risks. This document preserves the original documentation-review baseline.
+
 # Portfolio review — 2026-10-20
 
 ## Inventory and priority
