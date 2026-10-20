@@ -2,7 +2,7 @@
 
 Computer Science and Business junior at the University of Rochester · graduating May 2028.
 
-If you like my work or have any comments / feedback, feel free to reach out at [amandalehoang1508@gmail.com](mailto:amandalehoang1508@gmail.com).
+If you like my work or have any comments / feedback, feel free to reach out at [albertmejooli@gmail.com](mailto:albertmejooli@gmail.com).
 
 ## Experience
 
