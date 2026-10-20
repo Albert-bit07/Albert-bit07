@@ -8,7 +8,7 @@ The ranking below is editorial judgment about source evidence and Summer 2027 SW
 
 | Rank | Repository | Technical depth and completeness | Recruiting relevance / demonstration potential | Classification |
 |---|---|---|---|---|
-| 1 | Choreo Log | Broadest systems scope: event state, WAL/snapshots, replication and scoped tests described in reference | Strongest systems, backend and quant SWE discussion; supported-toolchain demo still needs verification | Active flagship/reference; existing draft PR 24 |
+| 1 | Choreo Log | Broadest systems scope: event state, WAL/snapshots, replication and scoped tests described in reference | Strongest systems, backend and quant SWE discussion; supported-toolchain demo still needs verification | Active flagship/reference; documentation PR 24 merged |
 | 2 | Feedback Analyzer | Cohesive Worker/API/dashboard; SQL/KV/AI paths implemented; starter tests stale | Best next backend/cloud showcase; local setup is comparatively compact, AI/browser execution unverified | Application prototype; last inspected push 2026-09-13 |
 | 3 | Memewebsite | C++ ranking, Python embedding/preference utilities and frontend present; GIL and portability gaps | C++/ML-serving discussion with useful 90-second workflow after runtime repair | Collaborative experimental prototype; last push 2025-12-15 |
 | 4 | Speech-therapy-app | SwiftUI game and substantial Python API; mock UI path and contract gaps | Mobile/backend collaboration story; existing video link not verified; weak evidence for ML accuracy | Collaborative incomplete integration; last push 2026-01-18 |
@@ -20,12 +20,12 @@ No See Through, SenseShift, Veganify or OverwhelmDetector repository appeared in
 
 ## Running checklist and PRs
 
-All new PRs are drafts on `docs/engineering-showcase-20261020`, with no merges. Choreo Log's reference branch is separate and was not changed.
+On 2026-10-20, the user explicitly authorized merging all portfolio documentation PRs. Choreo Log PR 24 and the five application documentation PRs were successfully squash-merged after live diff/check review. This profile PR updates the ledger and navigation; its live status is linked below. The changes are documentation-only and do not fix the application issues.
 
 | Repository | Work completed | Review link | Status |
 |---|---|---|---|
-| Choreo Log | Read specified reference documents; checked reference PR status; no duplicate rewrite | [Existing PR 24](https://github.com/Albert-bit07/Choreolog/pull/24) | Open draft, unmerged |
-| Feedback Analyzer | README, architecture/validation overview, demo plan, seven recruiting material types | [PR 1](https://github.com/Albert-bit07/feedback-analyzer/pull/1) | Open draft, unmerged |
+| Choreo Log | Read specified reference documents; checked five passing CI checks, parsed Mermaid, resolved 45 local path links | [Existing PR 24](https://github.com/Albert-bit07/Choreolog/pull/24) | Merged |
+| Feedback Analyzer | README, architecture/validation overview, demo plan, seven recruiting material types | [PR 1](https://github.com/Albert-bit07/feedback-analyzer/pull/1) | See live PR status |
 | Memewebsite | README, architecture/limits, local setup/demo plan, recruiting materials | [PR 1](https://github.com/Albert-bit07/Memewebsite/pull/1) | Open draft, unmerged |
 | Speech-therapy-app | README, mock/integration boundaries, engineering overview, demo plan, recruiting materials | [PR 1](https://github.com/Albert-bit07/Speech-therapy-app/pull/1) | Open draft, unmerged |
 | charttracker-api | Proportionate README with architecture, setup, demo and limits | [PR 1](https://github.com/Albert-bit07/charttracker-api/pull/1) | Open draft, unmerged |
@@ -40,7 +40,7 @@ All new PRs are drafts on `docs/engineering-showcase-20261020`, with no merges. 
 - [ ] GitHub-rendered visual diagram inspection
 - [ ] New verified product recordings or screenshots
 - [ ] Full application runtime validation where blocked below
-- [ ] Explicit merge authorization and applicable passing checks
+- [x] Explicit merge authorization received; six application/reference PRs merged after documentation verification and live CI inspection
 
 ## Verification ledger
 
@@ -51,9 +51,9 @@ All new PRs are drafts on `docs/engineering-showcase-20261020`, with no merges. 
 | Speech app | Python AST (7 backend files) and source/contract review | FastAPI/librosa/PocketSphinx absent; pinned requirements need compatible interpreter review. Linux has no Xcode. No audio or UI runtime |
 | ChartTracker API | Python AST (6 files) | FastAPI/yfinance/pygame absent; no desktop/provider/audio execution |
 | Chart Tracker | Python AST (1 file) | yfinance/pygame absent; no desktop/provider/audio execution |
-| Choreo Log | Read reference and checked PR status only in this pass | No build/test rerun, metric reproduction or new demo in this pass |
+| Choreo Log | Reference review; Mermaid syntax and 45 local path links; five successful head CI checks (Linux and Windows build/test, format, API audit, management API) | No local build/test rerun, metric reproduction or new demo in this pass |
 
-`git diff --check` passed on the five application documentation changes. All 49 local links/anchors in those changes resolved. Five Mermaid diagrams parsed using Mermaid with a jsdom DOM; this is syntax validation, not a GitHub visual-render check. No successful runtime test is inferred from AST parsing, type checking, syntax checking or bundling. Final remote comparisons confirmed that all six new PRs change Markdown files only. All six were open drafts and unmerged; their inspected heads had zero check runs and no commit statuses (the combined status API reports pending, not success).
+`git diff --check` passed on the five application documentation changes. All 49 local links/anchors in those changes resolved. Five Mermaid diagrams parsed using Mermaid with a jsdom DOM; this is syntax validation, not a GitHub visual-render check. Choreo Log's diagram also parsed during pre-merge verification. No successful runtime test is inferred from AST parsing, type checking, syntax checking or bundling. Final remote comparisons confirmed that all six new PRs change Markdown files only. At the initial audit, all six were open drafts with zero check runs and no commit statuses (the combined status API reported pending, not success). At merge time the five application documentation PRs still had no checks configured; Choreo Log PR 24 had five successful checks. No failed check was overridden.
 
 The five untreated project trees contain no CI workflow. GitHub Actions queries returned zero historical workflow runs for each. Required checks cannot be considered passed merely because none exist. This work did not change core behavior or create tests mirroring documentation.
 
@@ -79,4 +79,4 @@ Pin **Choreo Log**, then **Feedback Analyzer**. Add **Meme Feed** after its runt
 | ML infrastructure | Meme Feed plus Choreo Log systems evidence | Feedback Analyzer for inference API integration; no training/evaluation infrastructure established |
 | General backend/full-stack | Feedback Analyzer or Choreo Log | ChatterQuest for collaborative API design, with mock path disclosed |
 
-For a short recruiter conversation: lead with Choreo Log, follow with Feedback Analyzer, then choose Meme Feed or ChatterQuest based on the role. Detailed recruiting text lives in each showcase branch's `docs/recruiting.md`; Choreo's matching notes are [here](choreolog-recruiting.md).
+For a short recruiter conversation: lead with Choreo Log, follow with Feedback Analyzer, then choose Meme Feed or ChatterQuest based on the role. Detailed recruiting text is now available on each showcase project's default branch in `docs/recruiting.md`; Choreo's matching notes are [here](choreolog-recruiting.md).
