@@ -2,21 +2,23 @@
 
 Computer Science and Business junior at the University of Rochester · graduating May 2028.
 
-I build backend and systems projects and previously worked on backend engineering at Cloudflare. I am seeking Summer 2027 software engineering internships, with particular interests in distributed systems, backend infrastructure, performance and ML infrastructure.
+## Experience
+
+Previously a Software Engineer Intern at **Cloudflare**, working on backend billing systems, customer-facing tools and cross-service event processing.
+
+I’m seeking **Summer 2027 software engineering internships**, with interests in distributed systems, backend infrastructure, performance, quantitative software engineering and ML infrastructure.
 
 ## Selected engineering work
 
-| Project | What to inspect | Current scope |
-|---|---|---|
-| [Choreo Log](https://github.com/Albert-bit07/Choreolog) | C++20 event runtime, WAL/snapshot recovery, replication and tests | Strongest systems project; [presentation PR](https://github.com/Albert-bit07/Choreolog/pull/24) merged |
-| [Feedback Analyzer](https://github.com/Albert-bit07/feedback-analyzer) | TypeScript Worker, relational summaries, KV cache and inference bindings | Backend/dashboard prototype using seeded feedback |
-| [Meme Feed](https://github.com/Albert-bit07/Memewebsite) | C++ cosine ranking and embedded Python preference computation | Collaborative prototype; runtime threading and setup gaps documented |
-| [ChatterQuest / SpeakBright](https://github.com/Albert-bit07/Speech-therapy-app) | Python audio-analysis API and SwiftUI game boundary | Collaborative prototype; current game path uses mock analysis |
+| Project | What to inspect |
+|---|---|
+| [Choreolog](https://github.com/Albert-bit07/Choreolog) | C++20 replicated event runtime: checksummed write-ahead logging, deterministic replay, three-node majority commitment and recovery tests |
+| [feedback-analyzer](https://github.com/Albert-bit07/feedback-analyzer) | TypeScript dashboard and APIs on Cloudflare Workers, with D1 SQL aggregation, KV caching and Workers AI integration |
 
-The application documentation PRs linked in the [portfolio review](docs/portfolio-review.md) have been merged. Their guides are available on the default branches. Documentation merges do not resolve the application bugs and runtime limitations recorded in the review.
+Each repository includes architecture, setup instructions and implementation details.
 
-## Supporting projects
+## Technologies
 
-[ChartTracker API](https://github.com/Albert-bit07/charttracker-api) adds an HTTP entry point to a desktop polling experiment. [Chart Tracker](https://github.com/Albert-bit07/Chart-tracker) is the original interactive script. I keep them as smaller learning projects rather than presenting them as trading infrastructure.
+Go · C++ · Python · TypeScript/JavaScript · SQL · Rust · PostgreSQL · React · FastAPI · Linux
 
-[Portfolio review and verification ledger](docs/portfolio-review.md)
+[LinkedIn](https://www.linkedin.com/in/albertmejooli)
